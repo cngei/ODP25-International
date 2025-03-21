@@ -1,0 +1,14 @@
+[
+    {
+        "Id": 0,
+        "ImageSrc": "/img/logo.png",
+        "Title": "First Item",
+        "Text": "This is the text for the first item."
+    },
+    {
+        "Id": 1,
+        "ImageSrc": "/img/logo.png",
+        "Title": "Second Item",
+        "Text": "This is the text for the second item."
+    }
+]
