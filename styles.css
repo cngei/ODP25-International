@@ -100,8 +100,8 @@
   
   .progress-btn {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -15px;
+    left: -30px;
     padding: var(--spacing-xs) var(--spacing-small);
     background-color: var(--secondary-color);
     color: white;
@@ -341,6 +341,9 @@
   .not-found h2 {
     margin-bottom: var(--spacing-medium);
   }
+  #text p {
+    margin: 1em 0px;
+  }
   
   /* Media Queries for larger screens */
   @media (min-width: 576px) {
@@ -374,7 +377,7 @@
     
     .progress-btn {
       top: var(--spacing-medium);
-      right: var(--spacing-medium);
+      left: var(--spacing-medium);
     }
     
     .timeline::before {
