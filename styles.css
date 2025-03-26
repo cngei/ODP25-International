@@ -56,7 +56,7 @@
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
-    padding: var(--spacing-medium);
+    padding: var(--spacing-small);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -100,8 +100,8 @@
   
   .progress-btn {
     position: absolute;
-    top: -15px;
-    left: -30px;
+    top: 0;
+    left: -10px;
     padding: var(--spacing-xs) var(--spacing-small);
     background-color: var(--secondary-color);
     color: white;
@@ -126,6 +126,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .content img{
+    max-width: 100%;
   }
   
   .title {
